@@ -35,3 +35,7 @@ vim.api.nvim_set_keymap('n', '<C-j>', ':wincmd j<CR>', { silent = true })
 vim.api.nvim_set_keymap('n', '<C-h>', ':wincmd h<CR>', { silent = true })
 vim.api.nvim_set_keymap('n', '<C-l>', ':wincmd l<CR>', { silent = true })
 
+-- Comments
+vim.api.nvim_set_keymap("n", "<leader>c", "gtc", { noremap = false })
+vim.api.nvim_set_keymap("v", "<leader>C", "goc", { noremap = false })
+
